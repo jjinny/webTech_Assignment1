@@ -1,0 +1,47 @@
+﻿
+
+.menus{
+    width: 100%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    height: 44px;
+    text-align: left;
+}
+.menus ul li a:link, div ul li a:visited {
+    display: block;
+    background-color: #f1f1f1;color:#000;
+    text-align: center;
+    text-decoration: none;
+    padding: 4px;
+    border-bottom: 1px solid #fff;
+    width: 20%;
+}
+
+.menus ul li a:hover{
+    background-color: #ccc;
+}
+
+.menus ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.menus li:hover ul{
+    display: block;
+}
+
+#form1{
+    text-align:center;
+    margin:0px auto;
+}
+
+#pic_upload{
+    text-align:center;
+}
+
+FileUpload {
+    text-align:center;
+}
